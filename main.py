@@ -3,10 +3,10 @@ from flask import Flask
 
 @app.route("/")
 def index():
-   print(hello)
+   print('hello')
 
 
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True)
